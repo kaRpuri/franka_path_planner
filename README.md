@@ -17,6 +17,13 @@ git clone https://github.com/frankaemika/franka_description.git
 git clone https://github.com/kaRpuri/franka_path_planner.git
 ```
 
+### Install the Moveit Binaries
+
+
+```bash
+sudo apt install ros-humble-moveit
+```
+
 ### Install dependencies
 
 ```bash
