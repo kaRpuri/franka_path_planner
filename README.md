@@ -84,24 +84,3 @@ target_pose.position.y = 0.0;
 target_pose.position.z = 0.4;
 target_pose.orientation.w = 1.0;
 ```
-
-## Notes
-
-- Always source the workspace before running commands:
-
-```bash
-source ~/franka_ws/install/setup.bash
-```
-
-- Use parameter remapping if needed:
-
-```bash
-ros2 run franka_path_planner test_path \
-  --ros-args \
-  -p robot_description:=/robot_description \
-  -p robot_description_semantic:=/robot_description_semantic
-```
-
-## License
-
-Apache License 2.0
